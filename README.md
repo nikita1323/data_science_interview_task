@@ -110,7 +110,7 @@ python main.py --input_path path_to_your_video.mp4
 |    `--yolo_if_half`     |    bool    |           `False`           |                         Использование FP16                         |
 |   `--yolo_if_verbose`   |    bool    |           `False`           |          Вывод информации в процессе инференса в консоль           |
 |  `--detr_output_path`   |    str     | `output/detr-resnet-50.mp4` |                       Выходной файл для DETR                       |
-|   `--detr_model_name`   |    str     |          `yolo12n`          |                            Модель YOLO                             |
+|   `--detr_model_name`   |    str     |  `facebook/detr-resnet-50`  |                            Модель YOLO                             |
 | `--detr_conf_threshold` |   float    |             0.5             |    Степень уверенности модели в обнаружении конкретного объекта    |
 | `--detr_iou_threshold`  |   float    |             0.1             | Параметр для учета степени наложения bounding box-ов друг на друга |
 |   `--detr_if_verbose`   |    bool    |           `False`           |          Вывод информации в процессе инференса в консоль           |
